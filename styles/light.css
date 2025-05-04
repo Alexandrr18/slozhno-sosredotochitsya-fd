@@ -10,24 +10,25 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color-shadow-light: rgba(255, 141, 203, 1);
-  --accent-color-light: rgba(53, 52, 48, 1);
-  --border-color-button-light: rgba(50, 49, 45, 0.4);
-  --color-title-light: rgba(255, 194, 230, 1);
-  --bg-color-page-light: url(/images/cover-image-light.png);
-  --bg-image-header-light: display: none;
+  --accent-color-shadow-light-footer: rgba(255, 0, 112, 1);
+  --accent-color: rgba(53, 52, 48, 1);
+  --border-color-button: rgba(50, 49, 45, 0.4);
+  --color-title: rgba(255, 194, 230, 1);
+  --bg-color-page: url(/images/cover-image-light.png);
+  --bg-image-header: display: none;
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image: var(--bg-color-page-light);
+  background-image: var(--bg-color-page);
 }
 
 .theme-light .header {
-  background-image: var(--bg-image-header-light);
+  background-image: var(--bg-image-header);
 }
 
 .theme-light .header__theme-menu-list {
-  color: var(--accent-color-light);
+  color: var(--accent-color);
 }
 
 .theme-light .header__decor {
@@ -35,72 +36,72 @@
 }
 
 .theme-light .decorated-zone::before {
-  border-top-color: var(--accent-color-light);
-  border-right-color: var(--accent-color-light);
+  border-top-color: var(--accent-color);
+  border-right-color: var(--accent-color);
 }
 
 .theme-light .decorated-zone::after {
-  border-left-color: var(--accent-color-light);
-  border-bottom-color: var(--accent-color-light);
+  border-left-color: var(--accent-color);
+  border-bottom-color: var(--accent-color);
 }
 
 .theme-light .header__title {
-  color: var(--color-title-light);
+  color: var(--color-title);
   text-shadow: 4px 4px 0 var(--accent-color-shadow-light);
 }
 
 .theme-light .title-decor {
   background-color: var(--accent-color-shadow-light);
-  color: var(--accent-color-light);
+  color: var(--accent-color);
 
 }
 
 .theme-light .section__title {
-  color: var(--accent-color-light);
+  color: var(--accent-color);
 }
 
 .theme-light .container__text {
-  color: var(--accent-color-light);
+  color: var(--accent-color);
 }
 
 .theme-light .section__title-bold {
   background-color: var(--accent-color-shadow-light);
-  color: var(--accent-color-light);
+  color: var(--accent-color);
 
 }
 
 .theme-light .card-title {
   background-color: var(--accent-color-shadow-light);
-  color: var(--accent-color-light);
+  color: var(--accent-color);
 }
 
 .theme-light .footer__title {
-  color: var(--color-title-light);
-  text-shadow: 2px 2px 0 var(--accent-color);
+  color: var(--color-title);
+  text-shadow: 2px 2px 0 var(--accent-color-shadow-light-footer);
 }
 
 .theme-light .header__theme-menu-button:hover {
-  border: 1px solid var(--border-color-button-light);
+  outline: 1px solid var(--border-color-button);
 }
 
 .theme-light .header__theme-menu-button_active:active {
-  border: 1px solid var(--accent-color-light);
-  pointer-events: none
+  border: 1px solid var(--accent);
 }
 
 .theme-light .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--accent-color-light);
+  border-bottom: 1px solid var(--accent-color);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
   --accent-color-shadow-light: rgba(255, 141, 203, 1);
-  --accent-color-light: rgba(53, 52, 48, 1);
-  --border-color-button-light: rgba(50, 49, 45, 0.4);
-  --color-title-light: rgba(255, 194, 230, 1);
-  --bg-color-page-light: url(/images/cover-image-light.png);
-  --bg-image-header-light: display: none;
+  --accent-color-shadow-light-footer: rgba(255, 0, 112, 1);
+  --accent-color: rgba(53, 52, 48, 1);
+  --border-color-button: rgba(50, 49, 45, 0.4);
+  --color-title: rgba(255, 194, 230, 1);
+  --bg-color-page: url(/images/cover-image-light.png);
+  --bg-image-header: display: none;
   }
 }
 

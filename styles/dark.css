@@ -14,12 +14,8 @@
   --color-title: rgba(219, 0, 255, 1);
   --color-text: rgba(0, 0, 40, 1);
   --bg-color-page: rgba(0, 0, 40, 1);
-  --bg-image-header: url(/images/cover-image-dark.png);
-  --padding-mobile: 10px;
-  --padding-tablet-desk: 20px;
-  --padding-tablet-desk-right: 29px;
+  --bg-image-header: url(../images/cover-image-dark.png);
   --color-text-container: rgba(241, 178, 206, 1);
-  --font-family-general: 'IBM Plex Mono', Bold, Regular;
 }
 
 .theme-dark .page {
@@ -28,10 +24,11 @@
 
 .theme-dark .header {
   background-image: var(--bg-image-header);
-}
+}        
+/* Ольга, прошу прощения вот тут я не понял что нужно исправить */
 
 .theme-dark .header__theme-menu-list {
-  --accent-color: rgba(255, 0, 112, 1);
+  color: var(--accent-color);
 }
 
 .theme-dark .header__decor {
