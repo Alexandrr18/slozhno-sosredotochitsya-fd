@@ -311,6 +311,7 @@
 
   .decorated-zone::before {
    top: var(--padding-tablet-desk);
+   right: var(--padding-tablet-desk);
   }
 
   .header__decor {
@@ -443,9 +444,9 @@
     padding: 0 20px 0 20px;
   }
 
-  .decorated-zone::before {
+  /* .decorated-zone::before {
     right: var(--padding-tablet-desk);
-  }
+  } */
 
    .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
