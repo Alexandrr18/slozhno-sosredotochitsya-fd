@@ -5,13 +5,13 @@
 
 :root {
   --accent-color: rgba(255, 0, 112, 1);
-  --accent-color-shadow-light: rgba(255, 141, 203, 1);
-  --accent-color-shadow-light-footer: rgba(255, 0, 112, 1);
+  --accent-color-footer: rgba(255, 0, 112, 1);
+  --accent-color-heder: rgba(255, 0, 112, 1);
   --border-color-button: rgba(255, 0, 112, 0.4);
   --color-title: rgba(219, 0, 255, 1);
   --color-text: rgba(0, 0, 40, 1);
   --bg-color-page: rgba(0, 0, 40, 1);
-  --bg-image-header: url(/images/cover-image-dark.png);
+  --bg-image-page: url(../images/cover-image-dark.png);
   --padding-mobile: 10px;
   --padding-tablet-desk: 20px;
   --padding-tablet-desk-right: 29px;
