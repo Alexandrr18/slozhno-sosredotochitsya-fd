@@ -82,7 +82,7 @@
   font-family: var(--font-family-general);
   font-size: 18px;
   align-self: center;
-  /* line-height: 23.4px; */
+  line-height: 23.4px;
   font-weight: 700;
 }
 
@@ -105,6 +105,7 @@
   top: var(--padding-mobile);
   right: 19px;
   color: var(--accent-color-heder);
+  padding-right: 52px;
 }
 
 .header__decor-paragraph {
@@ -112,7 +113,7 @@
   position: absolute;
   inset: 0;
   display: flex;
-  gap: 9px;
+  gap: 11px;
 }
 
 .header__decor-paragraph::after {
@@ -266,7 +267,7 @@
   align-items: center;
   /* width: 375px; */
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 31px;
 }
 
 .footer__title {
@@ -385,7 +386,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 0 20px 0 20px;
-    margin-top: 80px;
+    margin-top: 79px;
   }
 
   .card__picture {
@@ -443,7 +444,7 @@
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-left: -21px;
+    margin-left: -20px;
   }
 
   .header__description {
