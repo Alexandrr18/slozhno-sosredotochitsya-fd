@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image-page: url(../images/cover-image-light.png);
-  --bg-color-page: none;
+  --bg-color-page: rgba(255, 241, 247, 1);
   --accent-color-heder: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --border-color-button: rgba(50, 49, 45, 0.4);
