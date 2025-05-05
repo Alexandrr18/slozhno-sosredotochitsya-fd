@@ -6,6 +6,7 @@
 :root {
   --accent-color: rgba(255, 0, 112, 1);
   --accent-color-footer: rgba(255, 0, 112, 1);
+  --accent-color-footer-desktop: rgba(255, 141, 203, 1);
   --accent-color-heder: rgba(255, 0, 112, 1);
   --border-color-button: rgba(255, 0, 112, 0.4);
   --color-title: rgba(219, 0, 255, 1);
