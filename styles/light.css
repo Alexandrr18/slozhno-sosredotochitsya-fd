@@ -10,13 +10,13 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image-page: url(../images/cover-image-light.png);
+  --bg-color-page: none;
   --accent-color-heder: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --border-color-button: rgba(50, 49, 45, 0.4);
   --color-title: rgba(255, 194, 230, 1);
   --color-text: rgba(53, 52, 48, 1);
   --color-text-container: rgba(53, 52, 48, 1);
-  /* --accent-color-footer: rgba(255, 141, 203, 1); */
 }
 
 .theme-light .page {
@@ -31,6 +31,7 @@
 @media (prefers-color-scheme: light) {
   :root {
   --bg-image-page: url(../images/cover-image-light.png);
+  --bg-color-page: none;
   --accent-color-heder: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --border-color-button: rgba(50, 49, 45, 0.4);
