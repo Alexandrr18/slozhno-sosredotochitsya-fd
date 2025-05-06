@@ -19,11 +19,6 @@
   --color-text-container: rgba(53, 52, 48, 1);
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  
-}
-
 .theme-light .header__decor {
   display: none;
 }

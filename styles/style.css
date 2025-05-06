@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 
-.header__theme-menu-button_active:active {
+.header__theme-menu-button_active {
   outline: 1px solid var(--accent-color-heder);
 }
 
@@ -89,6 +89,8 @@
 .title-decor {
   background-color: var(--accent-color);
   color: var(--color-text);
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .header__decor {
@@ -97,19 +99,16 @@
   flex-direction: row;
   gap: 10px;
   block-size: 25px;
-  inline-size: 50px;
+  inline-size: 52px;
   justify-self: end;
   align-items: center;
   font-family: var(--font-family-general);
   font-size: 18px;
   top: var(--padding-mobile);
-  right: 19px;
   color: var(--accent-color-heder);
-  padding-right: 52px;
 }
 
 .header__decor-paragraph {
-  content: REC;
   position: absolute;
   inset: 0;
   display: flex;
@@ -259,7 +258,7 @@
 .footer {
   position: relative;
   height: 100vh;
-  /* min-height: 668px; */
+  min-height: 668px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
@@ -285,7 +284,6 @@
   .header {
     min-height: 1024px;
     /* max-width: 768px; */
-    block-size: 100%;
     padding: 20px;
   }
 
@@ -393,14 +391,12 @@
     object-fit: cover;
     block-size: 100%;
     max-width: 100%;
-    width:100%;
     display: block;
   }
 
   .card-title {
     grid-column: 1 / -1;
     /* max-width: 728px; */
-    width:100%;
   }
 
   .sunset {
@@ -423,14 +419,13 @@
   .footer {
     min-height: 1024px;
     /* width: 768px; */
-    block-size: 100%;
     margin-top: 60px;
     padding: 0 20px 0 20px;
   }
 
    .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    text-shadow: 2px 2px 0 var(--accent-color-footer-desktop);
+    text-shadow: 2px 2px 0 var(--accent-color-footer);
   }
 
 }
@@ -439,7 +434,6 @@
   .header {
     min-height: 768px;
     /* max-width: 1024px; */
-    block-size: 100%;
     padding: 20px;
   }
 
@@ -533,13 +527,12 @@
 
 .card-title {
   /* max-width: 984px; */
-  width:100%;
+  /* width:100%; */
 }
 
 .footer {
   min-height: 768px;
   /* width: 1024px; */
-  block-size: 100%;
   margin-top: 60px;
   padding: 0 20px 0 20px;
 }
@@ -547,7 +540,7 @@
 .footer__title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   max-width:100%;
-  text-shadow: 2px 2px 0 var(--accent-color-footer-desktop);
+  text-shadow: 2px 2px 0 var(--accent-color-footer);
 }
 
 }
